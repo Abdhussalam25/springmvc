@@ -1,0 +1,20 @@
+what is boiler plate code?
+
+   kind of code which we will use repeatedly
+   ex: getter and setter method
+   
+   What is model and view?
+   
+   Which has to be handled carefully
+   
+   unchecked exception
+   
+   checked exception--- it is handled by the compiler
+   
+   if we are using runtime exception ie
+   
+   unchecked exception then it has to be 
+   
+   handled by us.
+   
+   

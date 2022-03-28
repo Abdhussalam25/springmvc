@@ -1,0 +1,36 @@
+Bean:
+Entity model ==> Person
+personId
+personFirstName
+personLastName
+personAge
+
+getters/setters
+create default and parameterized
+create toString
+
+------------------
+DAO:
+interface:--> List<Person> getPersons();
+Person getPersonById(int personId);
+List<Person> addPerson(Person person); // it can be according to the need either single object or list has to be returned
+ Person modPerson(Person person);
+ Person delPersonById(int personId);
+ void delPersons();
+ ------------
+PersonService 
+-----------
+PersonRestController
+
+@GetMapping("/PersonHome")
+public String init(){
+return "Welcome to Restful service for service for "Person";
+}
+
+========================================
+Bean:entity:model ==> Item
+itemId
+itemName
+itemPrice
+itemQty
+itemROL
